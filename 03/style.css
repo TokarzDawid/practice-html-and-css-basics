@@ -4,8 +4,51 @@
 	font-style: normal;
 	font-weight: bold;
 }
+body {
+    box-sizing: border-box;
+}
 
 div {
 	font-family: 'Source Sans PRO';
 	font-weight: bold;
 }
+
+.parent {
+  width: 600px;  
+  padding: 20px;
+}
+
+.parent--inline-block {
+ width: 30%;
+ display: inline-block;
+}
+
+
+.parent--float{
+    width: 30%;
+    float: right;
+}
+
+.parent--flexbox{
+    width: 40%;
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: center;
+    align-items: center;
+}
+
+.child--first {
+ padding: 10px;
+ font-weight: normal;
+}
+
+.child--middle{
+padding: 10px;
+font-weight: bold;
+}
+
+.child--last{
+    padding:10px;
+    font-style: italic;
+}
+
